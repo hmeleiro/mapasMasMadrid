@@ -18,7 +18,8 @@
       
       <guid>/2019-02-14-tipologia/</guid>
       <description>Para establecer la tipología de prioridades de las secciones censales empleo el voto (absoluto y relativo) a partidos de izquierdas (Ahora Madrid, PSOE e IU) en las elecciones municipales de 2015. A continuación un resumen de la tipología:
-Prioridad 1 (Muy alta): Número de votos en el cuartil 4 y 45% o más. Prioridad 2 (Alta): Número de votos en el cuartil 4 y % de votos en el cuartil 4 (excluye a la anterior) Prioridad 3 (Media): Número de votos en el cuartil 3 y % de votos en el cuartil 3 (excluye a la anterior) Prioridad 4 (Baja): Número de votos en el cuartil 2 y % de votos en el cuartil 2 (excluye a la anterior) Prioridad 5 (Muy baja): Número de votos en el cuartil 1 y % de votos en el cuartil 1 (excluye a la anterior)</description>
+Prioridad 1 (Muy alta): Número de votos en el cuartil 4 y 45% o más.
+Prioridad 2 (Alta): Número de votos en el cuartil 4 y % de votos en el cuartil 4 (excluye a la anterior)</description>
     </item>
     
   </channel>
