@@ -12,26 +12,26 @@
   
 
   
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://example.com/apple-touch-icon.png">
 
   
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://example.com/favicon-32x32.png">
 
   
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://example.com/favicon-16x16.png">
 
   
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="manifest" href="https://example.com/site.webmanifest">
 
   
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="mask-icon" href="https://example.com/safari-pinned-tab.svg" color="#5bbad5">
 
   <meta name="msapplication-TileColor" content="#da532c">
 
   <meta name="theme-color" content="#ffffff">
 
   
-  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://example.com/css/bootstrap.min.css" />
 
   
   <title>Tipología | Más Madrid: mapas de campaña</title>
@@ -170,7 +170,11 @@ blockquote,
   <nav class="custom-navbar">
   <div class="container">
     
-    <a href="/">Mapas</a>
+    <a href="/">Home</a>
+    
+    <a href="/mapas/barrios/">Barrios</a>
+    
+    <a href="/mapas/secciones/">Secciones censales</a>
     
     <a href="/2019-02-14-tipologia/">Tipología</a>
     
@@ -194,12 +198,94 @@ blockquote,
 <script src="/rmarkdown-libs/kePrint/kePrint.js"></script>
 
 
-<p>Para establecer la tipología de prioridades de las secciones censales empleo el voto (absoluto y relativo) a partidos de izquierdas (Ahora Madrid, PSOE e IU) en las elecciones municipales de 2015. A continuación un resumen de la tipología:</p>
+<div id="barrios" class="section level4">
+<h4>Barrios</h4>
+<p>Para establecer la tipología de prioridades de los barrios empleo el voto (absoluto y relativo) a partidos de izquierdas (Ahora Madrid, PSOE e IU) en las elecciones municipales de 2015. A continuación un resumen de la tipología:</p>
 <p><b>Prioridad 1 (Muy alta):</b> Número de votos en el cuartil 4 y 45% o más.</p>
 <p><b>Prioridad 2 (Alta):</b> Número de votos en el cuartil 4 y % de votos en el cuartil 4 (excluye a la anterior)</p>
 <p><b>Prioridad 3 (Media):</b> Número de votos en el cuartil 3 y % de votos en el cuartil 3 (excluye a la anterior)</p>
 <p><b>Prioridad 4 (Baja):</b> Número de votos en el cuartil 2 y % de votos en el cuartil 2 (excluye a la anterior)</p>
 <p><b>Prioridad 5 (Muy baja):</b> Número de votos en el cuartil 1 y % de votos en el cuartil 1 (excluye a la anterior)</p>
+<table class="table table-striped table-hover table-condensed table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+% de voto
+</th>
+<th style="text-align:right;">
+Número de barrios
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Prioridad 1
+</td>
+<td style="text-align:right;">
+11.55
+</td>
+<td style="text-align:right;">
+8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Prioridad 2
+</td>
+<td style="text-align:right;">
+9.98
+</td>
+<td style="text-align:right;">
+8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Prioridad 3
+</td>
+<td style="text-align:right;">
+15.45
+</td>
+<td style="text-align:right;">
+16
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Prioridad 4
+</td>
+<td style="text-align:right;">
+47.73
+</td>
+<td style="text-align:right;">
+57
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Prioridad 5
+</td>
+<td style="text-align:right;">
+15.28
+</td>
+<td style="text-align:right;">
+42
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="secciones-censales" class="section level4">
+<h4>Secciones censales</h4>
+<p>Para establecer la tipología de prioridades de las secciones censales empleo el número de votos a partidos de izquierdas (Ahora Madrid, PSOE e IU) en las elecciones municipales de 2015. A continuación un resumen de la tipología:</p>
+<p><b>Prioridad 1 (Muy alta):</b> Secciones censales con un número de votos en el cuartil 4 y 45% sobre censo o más.</p>
+<p><b>Prioridad 2 (Alta):</b> Secciones censales con un número de votos en el cuartil 4 y menos del 45% sobre censo.</p>
+<p><b>Prioridad 3 (Media):</b> Secciones censales con un número de votos en el cuartil 3.</p>
+<p><b>Prioridad 4 (Baja):</b> Secciones censales con un número de votos en el cuartil 2.</p>
+<p><b>Prioridad 5 (Muy baja):</b> Secciones censales con un número de votos en el cuartil 1.</p>
 <table class="table table-striped table-hover table-condensed table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -230,10 +316,10 @@ Prioridad 1
 Prioridad 2
 </td>
 <td style="text-align:right;">
-13.66
+31.98
 </td>
 <td style="text-align:right;">
-225
+532
 </td>
 </tr>
 <tr>
@@ -241,10 +327,10 @@ Prioridad 2
 Prioridad 3
 </td>
 <td style="text-align:right;">
-19.66
+26.29
 </td>
 <td style="text-align:right;">
-394
+603
 </td>
 </tr>
 <tr>
@@ -252,10 +338,10 @@ Prioridad 3
 Prioridad 4
 </td>
 <td style="text-align:right;">
-40.16
+20.26
 </td>
 <td style="text-align:right;">
-964
+595
 </td>
 </tr>
 <tr>
@@ -263,14 +349,15 @@ Prioridad 4
 Prioridad 5
 </td>
 <td style="text-align:right;">
-19.90
+14.85
 </td>
 <td style="text-align:right;">
-753
+606
 </td>
 </tr>
 </tbody>
 </table>
+</div>
 
     </article>
   </div>
